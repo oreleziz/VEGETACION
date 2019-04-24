@@ -1,6 +1,6 @@
 import rasterio
 
-image_file = ("imagen_NDVI.tif")
+image_file = (".tif")
 
 # Load red and NIR bands - note all PlanetScope 4-band images have band order BGRN
 with rasterio.open(image_file) as src:
